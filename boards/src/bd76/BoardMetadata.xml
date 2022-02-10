@@ -18,7 +18,7 @@
     width - width of the board in hexes.
 	others - TBD e.g. alternate hex grain, etc. 
 -->
-<boardMetadata name="BFPO" version="6.1" versionDate="Oct 2017" author="BK" boardImageFileName="bdBFPO.gif" hasHills="TRUE" width="33" height="10">
+<boardMetadata name="76" version="6.1" versionDate="Sep 2017" author="BK" boardImageFileName="bd76.gif" hasHills="TRUE" width="33" height="10">
 
     <!--
         The type of buildings on the map. Because the building colors are shared by all building types, VASL can't easily
@@ -30,14 +30,51 @@
 
 	-->
     <buildingTypes>
-        <buildingType hexName="C6" buildingTypeName="Wooden Building" />
-        <buildingType hexName="G3" buildingTypeName="Wooden Building" />
-        <buildingType hexName="G6" buildingTypeName="Wooden Building" />
-        <buildingType hexName="J9" buildingTypeName="Wooden Building" />
-        <buildingType hexName="K4" buildingTypeName="Wooden Building" />
-        <buildingType hexName="O3" buildingTypeName="Wooden Building" />
-        <buildingType hexName="P9" buildingTypeName="Wooden Building" />
-        <buildingType hexName="Y8" buildingTypeName="Wooden Building" />
+		
+        <buildingType hexName="D4" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="E5" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="F4" buildingTypeName="Wooden Building, 1 Level" />
+		<buildingType hexName="F5" buildingTypeName="Wooden Building, 1 Level" />
+		
+		<buildingType hexName="G2" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="G3" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="H1" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="H5" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="I5" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="I6" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="H7" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="H8" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="J4" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="J5" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="J8" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="K9" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="L2" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="M3" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="N2" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="L7" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="M8" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="O3" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="P2" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="Q8" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="R8" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="S2" buildingTypeName="Stone Building, 2 Level" />
+		
+		<buildingType hexName="U5" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="U6" buildingTypeName="Stone Building, 1 Level" />
+		
+		<buildingType hexName="V4" buildingTypeName="Stone Building, 1 Level" />
+		<buildingType hexName="V5" buildingTypeName="Stone Building, 1 Level" />
+		
 	</buildingTypes>
 	
 	<overlaySSRules>
@@ -74,16 +111,16 @@
 			x - x coordinate of overly upper left
 			y - y coordinate of overlay upper left
 		-->		
-	<!-- TBD
-		<overlaySSRule name="DenseJungle" image="BFPR_NoPath.gif" x="1" y="1" />
-		<overlaySSRule name="DenseJungle" image="BFPR_DenseJungle.gif" x="1" y="1" />
-		<overlaySSRule name="Bamboo" image="BFPR_Bamboo.gif" x="1255" y="126" />
-		<overlaySSRule name="OrchardsToShellholes" image="BFPR_OrchardsToShellholes.gif" x="143" y="8" />
-		<overlaySSRule name="OrchardsToCrags" image="BFPR_OrchardsToCrags.gif" x="145" y="13" />
-		<overlaySSRule name="PalmTrees" image="BFPR_PalmTrees.gif" x="141" y="7" />
-		<overlaySSRule name="LightWoods" image="BFPR_LightWoods.gif" x="1" y="1" />
-		<overlaySSRule name="NoRoads" image="BFPR_NoRoads.gif" x="1" y="1" />
-	-->
+		<overlaySSRule name="DenseJungle" image="76_DenseJungle.gif" x="1" y="1" />
+		<overlaySSRule name="HedgesToBocage" image="76_HedgesToBocage.gif" x="33" y="57" />
+		<overlaySSRule name="WallsToBocage" image="76_WallsToBocage.gif" x="914" y="27" />
+		<overlaySSRule name="BridgeToFord" image="76_BridgeToFord.gif" x="1370" y="485" />
+		<overlaySSRule name="NoBridge" image="76_NoBridge.gif" x="1370" y="485" />
+		<overlaySSRule name="OrchardsToShellholes" image="76_OrchardsToShellholes.gif" x="647" y="265" />
+		<overlaySSRule name="OrchardsToCrags" image="76_OrchardsToCrags.gif" x="649" y="265" />
+		<overlaySSRule name="PalmTrees" image="76_PalmTrees.gif" x="648" y="4" />
+		<overlaySSRule name="LightWoods" image="76_LightWoods.gif" x="1" y="1" />
+		<overlaySSRule name="NoRoads" image="76_NoRoads.gif" x="1" y="1" />
 	</overlaySSRules>
 	
 	<colors>
@@ -122,9 +159,5 @@
 			For hexsides 0 is the top hexside with 1 being clockwise from there, etc. 
 			Example hex A1 has slopes on top and bottom hexsides: <slope hex="A1" hexsides="03" />
 		-->
-		<slope hex="G1" hexsides="45" />
-		<slope hex="G2" hexsides="2345" />
-		<slope hex="H0" hexsides="2" />
-		<slope hex="H1" hexsides="123" />
 	</slopes>
 </boardMetadata>
